@@ -159,7 +159,7 @@ template {
 }
 
 /* Variables
-                     ============================= */
+                       ============================= */
 
 :root {
   --color-primary: #d73953;
@@ -238,7 +238,7 @@ template {
 }
 
 /* Base
-                        ============================= */
+                          ============================= */
 
 *,
 *:before,
@@ -304,7 +304,7 @@ a:active {
 }
 
 /* Helpers
-                        ============================= */
+                          ============================= */
 
 .visually-hidden:not(:focus):not(:active) {
   position: absolute !important;
@@ -318,7 +318,7 @@ a:active {
 /*** 2. LAYOUT ***/
 
 /* Layout
-                        ============================= */
+                          ============================= */
 
 .container {
   width: 960px;
@@ -327,7 +327,7 @@ a:active {
 }
 
 /* Grid
-                        ============================= */
+                          ============================= */
 
 ul.row {
   margin: -1rem;
@@ -352,7 +352,7 @@ ul.row {
 }
 
 /* Navbar
-                        ============================= */
+                          ============================= */
 
 .nav {
   display: flex;
@@ -401,7 +401,7 @@ ul.row {
 }
 
 /* Header
-                        ============================= */
+                          ============================= */
 
 .header {
   padding: var(--header-padding);
@@ -417,7 +417,7 @@ ul.row {
 }
 
 /* Footer
-                        ============================= */
+                          ============================= */
 
 .footer {
   --nav-item-font-weight: normal;
@@ -450,7 +450,7 @@ ul.row {
 /*** 3. SECTION ***/
 
 /* Section (all styles)
-                        ============================= */
+                          ============================= */
 
 .section {
   padding: var(--section-padding);
@@ -487,7 +487,7 @@ ul.row {
 }
 
 /* Section theming
-                        ============================= */
+                          ============================= */
 
 [data-section-theme="dark"] {
   --button-color: var(--color-white);
@@ -497,9 +497,23 @@ ul.row {
 }
 
 /* Section HERO
-                        ============================= */
+                          ============================= */
 
 .section-hero {
+  position: relative;
+  margin-top: -8.5rem;
+}
+
+.section-hero .section-body {
+  padding: 10rem 4rem;
+}
+
+.section-hero .section-category {
+  color: var(--color-white);
+  text-transform: uppercase;
+}
+
+.hero-homepage {
   background-position: 75% 0;
   background-repeat: no-repeat;
   background-size: 90rem auto;
@@ -536,14 +550,14 @@ ul.row {
 /*** 4. CARD ***/
 
 /* Card (all styles)
-                        ============================= */
+                          ============================= */
 
 .card-category {
   color: var(--color-primary);
 }
 
 /* Card WORK
-                        ============================= */
+                          ============================= */
 
 .card-work .card-outer {
   position: relative;
@@ -608,7 +622,7 @@ ul.row {
 }
 
 /* Card SERVICES
-                        ============================= */
+                          ============================= */
 
 .card-services .card-title {
   margin: 0;
@@ -629,7 +643,7 @@ ul.row {
 }
 
 /* Card TESTIMONIAL
-                        ============================= */
+                          ============================= */
 
 .card-testimonial {
   text-align: center;
