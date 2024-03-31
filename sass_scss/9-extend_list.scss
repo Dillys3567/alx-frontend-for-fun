@@ -1,0 +1,15 @@
+/*Extended*/
+%info-shared {
+  font-size: 12px;
+}
+.info {
+  @extend %info-shared;
+}
+.success {
+  @extend %info-shared;
+  color: #00ff00;
+}
+.warning {
+  @extend %info-shared;
+  color: #ff0000;
+}
